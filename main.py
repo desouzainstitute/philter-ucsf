@@ -67,7 +67,7 @@ def main():
     if args.prod:
         run_eval = False
         verbose = False
-        outputformat = "i2b2"
+        outputformat = "asterisk"
         # filters = "./configs/philter_alpha.json"
         philter_config = {
             "verbose":verbose,
